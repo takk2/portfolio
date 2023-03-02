@@ -1,7 +1,9 @@
+import { PageTitle } from "../common/typography/pageTitle";
+
 const AboutPresenter = () => {
   return (
     <>
-      <div>AboutPage</div>
+      <PageTitle>AboutPage</PageTitle>
     </>
   );
 };
