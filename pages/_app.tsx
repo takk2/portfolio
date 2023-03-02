@@ -1,5 +1,5 @@
-import globals from "@/styles/global";
-import theme from "@/styles/theme";
+import globals from "@/src/common/styles/global";
+import theme from "@/src/common/styles/theme";
 import { Global, ThemeProvider } from "@emotion/react";
 import type { AppProps } from "next/app";
 

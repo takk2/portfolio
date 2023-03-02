@@ -1,12 +1,4 @@
-/*
-  ==============================================================================
-    (c) 2023. quantum universe All rights reserved.
-    author : SEOLIN LEE
-    start date : 1/3/2023
-  ==============================================================================
-*/
 const mediaQueryPx = {
-  oculus: "505px",
   mobile: "475px",
   tablet: "767px",
   laptop: "1024px",
@@ -16,7 +8,6 @@ const mediaQueryPx = {
 };
 
 const mediaQuery = {
-  oculus: `(max-height: ${mediaQueryPx.oculus})`,
   mobile: `(max-width: ${mediaQueryPx.mobile})`,
   tablet: `(max-width: ${mediaQueryPx.tablet})`,
   laptop: `(max-width: ${mediaQueryPx.laptop})`,
