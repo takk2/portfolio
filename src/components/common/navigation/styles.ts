@@ -6,4 +6,8 @@ export const Wrapper = styled.aside`
   height: 80vh;
   background-color: ${theme.colors.main.point};
   opacity: 0.4;
+
+  div {
+    text-align: center;
+  }
 `;
