@@ -1,7 +1,9 @@
+import { PageTitle } from "../common/typography/pageTitle";
+
 const ContactPresenter = () => {
   return (
     <>
-      <div>ContactPage</div>
+      <PageTitle>ContactPage</PageTitle>
     </>
   );
 };
