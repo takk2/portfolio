@@ -1,7 +1,9 @@
+import { PageTitle } from "../common/typography/pageTitle";
+
 const SkillPresenter = () => {
   return (
     <>
-      <div>SkillPage</div>
+      <PageTitle>SkillPage</PageTitle>
     </>
   );
 };

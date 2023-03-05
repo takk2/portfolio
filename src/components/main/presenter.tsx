@@ -1,7 +1,9 @@
+import { PageTitle } from "../common/typography/pageTitle";
+
 const MainPresenter = () => {
   return (
     <>
-      <div>MainPage</div>
+      <PageTitle>MainPage</PageTitle>
     </>
   );
 };
