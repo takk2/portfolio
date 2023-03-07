@@ -1,7 +1,7 @@
 const main = {
   primary: "#BDBDBD",
   secondary: "#608EB7",
-  point: "#FFD972",
+  point: "#4f7ba1",
 };
 
 const white = {

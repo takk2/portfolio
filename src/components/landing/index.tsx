@@ -8,7 +8,7 @@ import SkillContainer from "../skill";
 const Wrapper = styled.section`
   width: 100%;
   padding: 0 50px;
-  border: 1px solid blue;
+  /* border: 1px solid blue; */
 `;
 
 const LandingContainer = () => {
