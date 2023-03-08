@@ -1,10 +1,11 @@
-import { PageTitle } from "../common/typography/pageTitle";
+import * as S from "./styles";
 
 const MainPresenter = () => {
   return (
-    <>
-      <PageTitle>MainPage</PageTitle>
-    </>
+    <S.Wrapper>
+      <S.AvatarWrapper></S.AvatarWrapper>
+      <S.MainCopy>KIM YOUNG TAK</S.MainCopy>
+    </S.Wrapper>
   );
 };
 
