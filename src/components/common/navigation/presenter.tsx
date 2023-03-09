@@ -10,17 +10,18 @@ const TAB_JSON = [
 
 const NavigationPresenter = () => {
   return (
-    <>
-      <S.Wrapper>
-        <ul>
-          {TAB_JSON.map(el => (
-            <li key={el.id}>
-              <a>{el.tab}</a>
-            </li>
-          ))}
-        </ul>
-      </S.Wrapper>
-    </>
+    <S.Wrapper>
+      <S.ProfileWrapper>
+        <div></div>
+      </S.ProfileWrapper>
+      <ul>
+        {TAB_JSON.map(el => (
+          <li key={el.id}>
+            <a>{el.tab}</a>
+          </li>
+        ))}
+      </ul>
+    </S.Wrapper>
   );
 };
 export default NavigationPresenter;
